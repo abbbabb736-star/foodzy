@@ -1,0 +1,39 @@
+@use './variables' as v;
+
+.container {
+  width: min(v.$container-width, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 1rem 0;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: v.$color-muted;
+  }
+
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+.site-footer {
+  margin-top: 3rem;
+  border-top: 1px solid v.$color-border;
+  padding: 1.5rem 0;
+  color: v.$color-muted;
+  font-size: 0.9rem;
+}
