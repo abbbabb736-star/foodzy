@@ -1,0 +1,62 @@
+{
+  "prefs": {
+    "language": "Til",
+    "themeLight": "Yorug‘ rejim",
+    "themeDark": "Qorong‘u rejim"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "shop": "Do‘kon",
+    "blog": "Blog",
+    "about": "Biz haqimizda",
+    "faq": "Savol-javob"
+  },
+  "header": {
+    "searchPlaceholder": "Mahsulot qidirish...",
+    "allCategories": "Barcha kategoriyalar",
+    "groceries": "Oziq-ovqat",
+    "fragrances": "Atirlar",
+    "beauty": "Go‘zallik",
+    "search": "Qidirish",
+    "account": "Kabinet",
+    "wishlist": "Sevimlilar",
+    "cart": "Savatcha",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "menuPanel": "Menyu"
+  },
+  "footer": {
+    "about": "FoodTrove — oziq-ovqat bozorining eng katta platformasi. Kunlik ehtiyojlaringizni bizdan qondiring.",
+    "company": "Kompaniya",
+    "category": "Kategoriya",
+    "newsletter": "Yangiliklarga obuna",
+    "newsletterPlaceholder": "Email manzilingiz…",
+    "dairyBakery": "Sut va non mahsulotlari",
+    "fruitsVegetable": "Meva va sabzavot",
+    "snackSpice": "Gazak va ziravorlar",
+    "juiceDrinks": "Sharbat va ichimliklar",
+    "chickenMeat": "Go‘sht va parranda",
+    "fastFood": "Tezkor taomlar",
+    "aboutUs": "Biz haqimizda",
+    "deliveryInfo": "Yetkazib berish",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari",
+    "contactUs": "Aloqa",
+    "support": "Yordam markazi",
+    "copyright": "© {{year}} foodzy — Barcha huquqlar himoyalangan. Abduvakhid"
+  },
+  "wishlist": {
+    "title": "Sevimlilar",
+    "emptyTitle": "Sevimlilar ro‘yxati bo‘sh",
+    "emptyText": "Yurakchani bosib, yoqtirgan mahsulotlaringizni saqlang.",
+    "browse": "Katalogni ko‘rish",
+    "savedCount": "{{count}} ta saqlangan",
+    "hint": "Ba’zi mahsulotlar yuklanmadi.",
+    "openCatalog": "Katalogni ochish",
+    "addToCart": "Savatchaga",
+    "remove": "Olib tashlash"
+  },
+  "breadcrumb": {
+    "home": "Bosh sahifa"
+  }
+}

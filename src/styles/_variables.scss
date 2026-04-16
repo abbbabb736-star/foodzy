@@ -1,8 +1,81 @@
-$color-bg: #f5f5f6;
-$color-surface: #ffffff;
-$color-text: #1f2a37;
-$color-muted: #6b7280;
-$color-brand: #22c55e;
-$color-brand-dark: #16a34a;
-$color-border: #e5e7eb;
+// ── Figma design tokens ──
+$color-primary: #f13a2f;
+$color-primary-dark: #d42e24;
+$color-secondary: #2db224;
+$color-bg: #ffffff;
+$color-bg-soft: #f8f8f8;
+$color-border: #e8e8e8;
+$color-text: #1a1a1a;
+$color-muted: #7a7a7a;
+$color-light: #b0b0b0;
 $container-width: 1200px;
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+
+// ── Aliases для обратной совместимости с _pages.scss ──
+$color-brand: $color-primary;
+$color-brand-dark: $color-primary-dark;
+
+// ── App theme (light / dark via [data-theme]) ──
+:root {
+  --app-bg: #ffffff;
+  --app-text: #1a1a1a;
+  --app-muted: #7a7a7a;
+  --app-border: #e8e8e8;
+  --app-surface: #ffffff;
+  --app-surface-soft: #f8f8f8;
+  --header-bg: #ffffff;
+  --footer-bg: #f8f8f8;
+  --search-border: #64b496;
+
+  /* react-loading-skeleton uses --base-color / --highlight-color */
+  --base-color: #ecfeff;
+  --highlight-color: #f5f3ff;
+  --animation-duration: 1.35s;
+  --animation-direction: normal;
+
+  --skeleton-base-color: var(--base-color);
+  --skeleton-highlight-color: var(--highlight-color);
+  --skeleton-border-radius: 12px;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --app-bg: #0b0d12;
+  --app-text: #e8eaed;
+  --app-muted: #9aa0a8;
+  --app-border: #2d3548;
+  --app-surface: #141820;
+  --app-surface-soft: #1a202c;
+  --header-bg: #12151c;
+  --footer-bg: #0f1218;
+  --search-border: #3d5348;
+
+  --base-color: #1e293b;
+  --highlight-color: #334155;
+}
+
+/* Make skeleton shimmer look more “premium” */
+@keyframes app-skeleton-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.react-loading-skeleton {
+  border-radius: var(--skeleton-border-radius);
+  background-image: linear-gradient(
+    90deg,
+    rgba(34, 211, 238, 0.18) 0%,
+    rgba(167, 139, 250, 0.18) 25%,
+    rgba(255, 255, 255, 0.55) 50%,
+    rgba(34, 211, 238, 0.18) 75%,
+    rgba(167, 139, 250, 0.18) 100%
+  );
+  background-size: 260% 100%;
+  animation: app-skeleton-shimmer var(--animation-duration) ease-in-out infinite;
+}

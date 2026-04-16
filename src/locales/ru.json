@@ -1,0 +1,62 @@
+{
+  "prefs": {
+    "language": "Язык",
+    "themeLight": "Светлая тема",
+    "themeDark": "Тёмная тема"
+  },
+  "nav": {
+    "home": "Главная",
+    "shop": "Магазин",
+    "blog": "Блог",
+    "about": "О нас",
+    "faq": "Вопросы"
+  },
+  "header": {
+    "searchPlaceholder": "Поиск товаров...",
+    "allCategories": "Все категории",
+    "groceries": "Продукты",
+    "fragrances": "Парфюм",
+    "beauty": "Красота",
+    "search": "Поиск",
+    "account": "Аккаунт",
+    "wishlist": "Избранное",
+    "cart": "Корзина",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "menuPanel": "Меню"
+  },
+  "footer": {
+    "about": "FoodTrove — крупнейший маркет продуктов. Заказывайте всё необходимое каждый день.",
+    "company": "Компания",
+    "category": "Категории",
+    "newsletter": "Подписка на рассылку",
+    "newsletterPlaceholder": "Ваш email…",
+    "dairyBakery": "Молочное и выпечка",
+    "fruitsVegetable": "Фрукты и овощи",
+    "snackSpice": "Снеки и специи",
+    "juiceDrinks": "Соки и напитки",
+    "chickenMeat": "Мясо и птица",
+    "fastFood": "Фастфуд",
+    "aboutUs": "О нас",
+    "deliveryInfo": "Доставка",
+    "privacy": "Конфиденциальность",
+    "terms": "Условия использования",
+    "contactUs": "Контакты",
+    "support": "Поддержка",
+    "copyright": "© {{year}} foodzy — Все права защищены. Abduvakhid"
+  },
+  "wishlist": {
+    "title": "Избранное",
+    "emptyTitle": "Список избранного пуст",
+    "emptyText": "Нажимайте на сердечко у товара, чтобы сохранить его сюда.",
+    "browse": "В каталог",
+    "savedCount": "Сохранено: {{count}}",
+    "hint": "Некоторые товары не удалось загрузить.",
+    "openCatalog": "Открыть каталог",
+    "addToCart": "В корзину",
+    "remove": "Удалить"
+  },
+  "breadcrumb": {
+    "home": "Главная"
+  }
+}

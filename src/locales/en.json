@@ -1,0 +1,62 @@
+{
+  "prefs": {
+    "language": "Language",
+    "themeLight": "Light theme",
+    "themeDark": "Dark theme"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "blog": "Blog",
+    "about": "About",
+    "faq": "FAQ"
+  },
+  "header": {
+    "searchPlaceholder": "Search for items...",
+    "allCategories": "All Categories",
+    "groceries": "Groceries",
+    "fragrances": "Fragrances",
+    "beauty": "Beauty",
+    "search": "Search",
+    "account": "Account",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuPanel": "Menu"
+  },
+  "footer": {
+    "about": "FoodTrove is the biggest market of grocery products. Get your daily needs from our store.",
+    "company": "Company",
+    "category": "Category",
+    "newsletter": "Subscribe Our Newsletter",
+    "newsletterPlaceholder": "Your email address…",
+    "dairyBakery": "Dairy & Bakery",
+    "fruitsVegetable": "Fruits & Vegetable",
+    "snackSpice": "Snack & Spice",
+    "juiceDrinks": "Juice & Drinks",
+    "chickenMeat": "Chicken & Meat",
+    "fastFood": "Fast Food",
+    "aboutUs": "About Us",
+    "deliveryInfo": "Delivery Information",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "contactUs": "Contact Us",
+    "support": "Support Center",
+    "copyright": "© {{year}} foodzy — All rights reserved. Abduvakhid"
+  },
+  "wishlist": {
+    "title": "Wishlist",
+    "emptyTitle": "Your wishlist is empty",
+    "emptyText": "Save items you love by tapping the heart on any product.",
+    "browse": "Browse catalog",
+    "savedCount": "{{count}} items saved",
+    "hint": "Some saved items could not be loaded.",
+    "openCatalog": "Open catalog",
+    "addToCart": "Add to cart",
+    "remove": "Remove"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  }
+}

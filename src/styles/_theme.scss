@@ -1,0 +1,147 @@
+/* Dark mode: inner pages & cards (surfaces still using hardcoded #fff in SCSS) */
+[data-theme="dark"] {
+  .page-banner {
+    background: var(--app-surface-soft);
+    border-bottom-color: var(--app-border);
+
+    h1 {
+      color: var(--app-text);
+    }
+  }
+
+  .page-breadcrumb {
+    color: var(--app-muted);
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .page-section {
+    color: var(--app-text);
+  }
+
+  .section-title {
+    color: var(--app-text);
+  }
+
+  .catalog-sidebar,
+  .catalog-item,
+  .product-detail__panel,
+  .product-detail__main-img,
+  .product-detail__thumb,
+  .product-detail__tabs,
+  .cart-table-wrap,
+  .cart-empty,
+  .account-card,
+  .blog-post,
+  .blog-sidebar__block,
+  .checkout-card {
+    background: var(--app-surface) !important;
+    border-color: var(--app-border) !important;
+    color: var(--app-text);
+  }
+
+  .catalog-toolbar__view button {
+    background: var(--app-surface);
+    color: var(--app-text);
+  }
+
+  .catalog-filters__group input,
+  .catalog-filters__group select {
+    background: var(--app-surface);
+    color: var(--app-text);
+    border-color: var(--app-border);
+  }
+
+  .faq-item {
+    background: var(--app-surface);
+    border-color: var(--app-border);
+  }
+
+  .faq-item__q {
+    background: var(--app-surface);
+    color: var(--app-text);
+  }
+
+  .product-page__info {
+    background: var(--app-surface);
+    border-color: var(--app-border);
+  }
+
+  .wishlist-card,
+  .wishlist-empty {
+    background: var(--app-surface);
+    border-color: var(--app-border);
+  }
+
+  .wishlist-card__media {
+    background: var(--app-surface-soft);
+  }
+
+  .wishlist-card__title {
+    color: var(--app-text);
+  }
+
+  .wishlist-card__btn--ghost {
+    background: var(--app-surface-soft);
+    border-color: var(--app-border);
+    color: var(--app-text);
+  }
+
+  /* Home */
+  .home-page {
+    background: var(--app-bg);
+  }
+
+  .promo-card,
+  .product-card,
+  .deal-card,
+  .mini-list__item,
+  .newsletter,
+  .perk-card,
+  .best-sells-banner {
+    background: var(--app-surface) !important;
+    border-color: var(--app-border);
+  }
+
+  .hero-content h2,
+  .section-title,
+  .title-tabs button,
+  .sell-tabs button {
+    color: var(--app-text);
+  }
+
+  .title-tabs button:not(.active),
+  .sell-tabs button:not(.active) {
+    background: var(--app-surface);
+    border-color: var(--app-border);
+  }
+
+  .product-card__title a,
+  .product-card__category {
+    color: var(--app-muted);
+  }
+
+  .product-card__title a {
+    color: var(--app-text);
+  }
+
+  .mini-list__item p {
+    color: var(--app-text);
+  }
+
+  .site-drawer {
+    background: var(--header-bg);
+  }
+
+  .site-drawer__close {
+    background: var(--app-surface-soft);
+    color: var(--app-text);
+  }
+
+  .site-menu-toggle {
+    background: var(--app-surface);
+    border-color: var(--app-border);
+  }
+}
